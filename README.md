@@ -1,2 +1,2 @@
 # weather-app
-web app for making use of api
+web app web (with api)
