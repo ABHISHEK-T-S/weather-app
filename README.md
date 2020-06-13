@@ -1,2 +1,3 @@
 # weather-app
-web app for making use of api
+web app web (with api)
+### https://abhishek-t-s.github.io/weather-app/
