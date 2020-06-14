@@ -7,4 +7,15 @@ body{
 
 h1{
     color: white;
+    text-align: center;
+}
+#humidity{
+    color: white;
+}
+#temp,#humidity,#pres,#wind{
+    color: rgb(252, 0, 0);
+    font-size: large;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10%;
 }
