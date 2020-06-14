@@ -31,7 +31,10 @@ function getWeather(city) {
   }
 
 function myfunction(){
+
   let x = document.getElementById("city").value;
+ let citytitle= document.getElementById("titlecity1");
+ citytitle.innerHTML=x;
 
 getWeather(x);
 }

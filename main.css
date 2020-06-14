@@ -1,25 +1,44 @@
-#searchbar{
-    padding-top:100px;
+#searchbar {
+    padding-top: 100px;
 }
-body{
+
+body {
     background-color: black;
 }
 
-h1{
+h1 {
     color: white;
     text-align: center;
 }
-#humidity{
-    color: white;
-}
-#temp,#humidity,#pres,#wind{
+
+#temp,
+#humidity,
+#pres,
+#wind {
     color: rgb(20, 154, 187);
     font-size: large;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 10%;
+    margin: 2px;
 }
-.title{
-padding-top: 10%;
-color: turquoise;
+
+.title {
+    padding-top: 50px;
+    color: turquoise;
+}
+
+.row {
+    padding-top: 10%;
+}
+
+#titlecity1 {
+    color: rgb(20, 154, 187);
+    font-size: 25pt;
+    text-align: center;
+    padding-top: 5px;
+}
+#out{
+    outline-width: 2px;
+    outline-color: yellowgreen;
 }

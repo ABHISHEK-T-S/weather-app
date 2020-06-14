@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>weather</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="main.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </head>
-    <body>
-      <h1 class="title"  id = "top">
-        weather app
-      </h1>
-    
-        <div  class="input-group mb-3 container" id="searchbar"  >
-            <input  type="text" class="form-control form-control-lg" id="city" placeholder="your city">
-            <div class="input-group-append">
-              <button class="btn btn-success btn-lg" id="button" type="submit" onclick="myfunction()">SEARCH</button>
-            </div>
-          </div>
-          <br>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <h1 class="textwhite" >Humidity</h1>
-                <div  class="humdvalue"id="humidity"></div>
 
-              </div>
-              
-              <div class="col-md-3">
-                <h1 class="textwhite">Temperature</h1>
-                <div class = "tempvalue" id="temp"></div>
+<head>
+  <title>weather</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
 
-              </div>
-              <div class="col-md-3">
-                <h1 class="textwhite">Pressure</h1>
-                <div class = "presvalue" id="pres"></div>
+<body>
+  <h1 class="title" id="top">
+    weather app
+  </h1>
 
-              </div>
-              <div class="col-md-3">
-                <h1 class="textwhite">Wind</h1>
-                <div class="windvalue"id="wind"></div>
+  <div class="input-group mb-3 container" id="searchbar">
+    <input type="text" class="form-control form-control-lg" id="city" placeholder="your city">
+    <div class="input-group-append">
+      <button class="btn btn-success btn-lg" id="button" type="submit" onclick="myfunction()">SEARCH</button>
+    </div>
+  </div>
+  <br>
+  <div class="titlecity" id="titlecity1"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3" id="out">
+        <h1 class="textwhite">Humidity</h1>
+        <div class="humdvalue" id="humidity"></div>
 
-              </div>
-            </div>
-          </div>
-          <script src="main.js"></script>
-          <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-        
-    </body>
+      </div>
+
+      <div class="col-md-3" id="out">
+        <h1 class="textwhite">Temperature</h1>
+        <div class="tempvalue" id="temp"></div>
+
+      </div>
+      <div class="col-md-3" id="out">
+        <h1 class="textwhite">Pressure</h1>
+        <div class="presvalue" id="pres"></div>
+
+      </div>
+      <div class="col-md-3" id="out">
+        <h1 class="textwhite">Wind</h1>
+        <div class="windvalue" id="wind"></div>
+
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+
+</body>
+
 </html>
