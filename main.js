@@ -1,4 +1,4 @@
-function getWeather() {
+function getWeather(city) {
   let temperature = document.getElementById("temp");
   let humidity = document.getElementById("humidity");
   let wind = document.getElementById("wind");
@@ -7,7 +7,7 @@ function getWeather() {
 
 
     let url =
-    "https://api.openweathermap.org/data/2.5/weather?q=london&units=metric&lang=en&appid=06ce5938ce2ea2a5951e0f6bc624cb7b";
+    "https://api.openweathermap.org/data/2.5/weather?q="+city+"&units=metric&lang=en&appid=06ce5938ce2ea2a5951e0f6bc624cb7b";
 
     fetch(url)
       .then(response => response.json())
@@ -30,5 +30,8 @@ function getWeather() {
     location.innerHTML = "Unable to retrieve your location";
   }
 
+function myfunction(){
+  let x = document.getElementById("city").value;
 
-getWeather();
+getWeather(x);
+}

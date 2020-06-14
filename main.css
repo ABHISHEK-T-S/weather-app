@@ -1,5 +1,5 @@
 #searchbar{
-    padding-top:10%;
+    padding-top:100px;
 }
 body{
     background-color: black;
@@ -13,9 +13,13 @@ h1{
     color: white;
 }
 #temp,#humidity,#pres,#wind{
-    color: rgb(252, 0, 0);
+    color: rgb(20, 154, 187);
     font-size: large;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 50px;
     padding-bottom: 10%;
+}
+.title{
+padding-top: 10%;
+color: turquoise;
 }
