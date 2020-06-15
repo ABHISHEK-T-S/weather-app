@@ -42,3 +42,11 @@ h1 {
     outline-width: 2px;
     outline-color: yellowgreen;
 }
+#description{
+    text-align: center;
+    font-size:25pt;
+    color: white;
+    padding-top: 5%;
+    border-color: white;
+
+}

@@ -23,6 +23,11 @@ function getWeather(city) {
         pressure.innerHTML=presval+"  pa";
         let citytitle= document.getElementById("titlecity1");
         citytitle.innerHTML=city;
+        let description = document.getElementById("description");
+        let desc = data.weather[0].description;
+        console.log(desc);
+        description.innerHTML="description :     "+ desc;
+
 
         
       });
