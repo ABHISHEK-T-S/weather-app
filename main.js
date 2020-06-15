@@ -21,6 +21,8 @@ function getWeather(city) {
         wind.innerHTML=windval+"  km/hr";
         let presval = data.main.pressure;
         pressure.innerHTML=presval+"  pa";
+        let citytitle= document.getElementById("titlecity1");
+        citytitle.innerHTML=city;
 
         
       });
@@ -33,8 +35,7 @@ function getWeather(city) {
 function myfunction(){
 
   let x = document.getElementById("city").value;
- let citytitle= document.getElementById("titlecity1");
- citytitle.innerHTML=x;
+
 
 getWeather(x);
 }
